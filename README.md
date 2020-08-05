@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="banner.png">
-</p>
 
 ## The Challenge
 1. Read about the challenge and register at [#100DaysOfCloud.com](https://100DaysOfCloud.com)
