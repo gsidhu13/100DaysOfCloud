@@ -18,7 +18,8 @@ Managing AWS Services via CLI; AWS CLI provides direct access to all public APIs
  
  ### **Uninstalling AWS CLI**
  
- -Remove it from program and feature
+ -Remove it from program and feature 
+ 
  -From Cmd: appwiz.cpl
  
  ### **Configuring AWS CLI**
