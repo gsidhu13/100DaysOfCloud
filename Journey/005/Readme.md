@@ -5,11 +5,11 @@ Managing AWS Services via CLI AWS CLI provides direct access to all public APIs 
 HOW TO CONNECT TO AWS CLI?
 
 
-    Linux- use bash
+   Linux- use bash
 
-    Windows-Command Prompt
+   Windows-Command Prompt
 
-    Remotely- Run commands on EC2 using putty
+   Remotely- Run commands on EC2 using putty
 
 
 
