@@ -20,6 +20,12 @@
 <img width="856" alt="Day9_6" src="https://user-images.githubusercontent.com/44376898/90864185-16069480-e345-11ea-907c-9841969a90e8.png">
 
 4. Now create a group
-    - Name the group - *Administrator*
+    - Name the group - **Administrator**
+    - Check box for the **AdministratorAccess** Policy
+    - Choose **Create Group**
+    
     <img width="833" alt="Day9_7" src="https://user-images.githubusercontent.com/44376898/90864562-c07eb780-e345-11ea-86f5-9487875f6109.png">
+<img width="891" alt="Day9_8" src="https://user-images.githubusercontent.com/44376898/90865231-e8bae600-e346-11ea-99cd-484b43e1b1b2.png">
 
+5. You will have an option to add Tags(**Optional**). I am not adding any tags
+6. At last, choose **review** and the choose **create user**
