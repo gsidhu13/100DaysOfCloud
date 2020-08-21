@@ -18,3 +18,8 @@
 <img width="726" alt="Day9_4" src="https://user-images.githubusercontent.com/44376898/90864163-0d15c300-e345-11ea-82f0-df385ecdeab1.png">
 <img width="1017" alt="Day9_5" src="https://user-images.githubusercontent.com/44376898/90864177-11da7700-e345-11ea-8595-bb6a9bb69a3f.png">
 <img width="856" alt="Day9_6" src="https://user-images.githubusercontent.com/44376898/90864185-16069480-e345-11ea-907c-9841969a90e8.png">
+
+4. Now create a group
+    - Name the group - *Administrator*
+    <img width="833" alt="Day9_7" src="https://user-images.githubusercontent.com/44376898/90864562-c07eb780-e345-11ea-86f5-9487875f6109.png">
+
