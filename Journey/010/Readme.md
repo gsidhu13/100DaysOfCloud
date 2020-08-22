@@ -1,6 +1,6 @@
-## TOPIC - IAM 
+# TOPIC - IAM 
 
-### How Users Sign In
+## How Users Sign In
 
 1. Go to this link:https://signin.aws.amazon.com/console
     Users could manually enter in the account ID and then their credentials
@@ -12,9 +12,9 @@
   <img width="908" alt="Day10" src="https://user-images.githubusercontent.com/44376898/90964177-10a76800-e473-11ea-8929-516b3fbdf25e.png">
 
 
-### Tutorial on Billing Access
+## Tutorial on Billing Access
 
-**Prerequisites**
+### **Prerequisites**
 
 1. Create two users
 2. Create two groups and add users as a memeber 
@@ -22,9 +22,9 @@
 
 3. Make sure Access to billing is enabled. Refer to Day 09 
 
-**Real work**
+### **Real work**
 
-1. Create IAM policies that grant permissions to access billing information/data
+**1. Create IAM policies that grant permissions to access billing information/data**
 
     - Sign in with adminstrator account, open IAM dashboard
     - in the left/navigation pane, choose polices and then choose create *BillingFull* policy
@@ -44,7 +44,7 @@
     <img width="891" alt="Day10_3" src="https://user-images.githubusercontent.com/44376898/90965515-a0eaaa80-e47d-11ea-8eba-71a729be2eff.png">
 
 
-2. Attach policies to the groups 
+**2. Attach policies to the groups**
 
     - Go to IAM dashboard, in the navigation pane, choose groups
     - Select *TestingReadGroup* group, click on its permissions tab and then attach policy 
@@ -58,7 +58,7 @@
     - Now attach *BillingFull* policy to *TestingBillingFull* group.
     
     
- 3. Now do the testing 
+**3. Now do the testing** 
     - *TestingBillingFull* user will have full access to billing dashboard and will be able to make all changes
     - *TestingBillingRead* user won't be able to modify anything. To test, go to *Billing preference* in the navigation pane and try to modify something and save. You will 
        **Access denied** error message.
