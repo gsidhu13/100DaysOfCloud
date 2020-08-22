@@ -59,8 +59,11 @@
     
     
  3. Now do the testing 
-    - *TestingBillingFull* user will have full access to billing dashboard and will be able to make changes
-    - *TestingBillingRead* user won't be able to 
+    - *TestingBillingFull* user will have full access to billing dashboard and will be able to make all changes
+    - *TestingBillingRead* user won't be able to modify anything. To test, go to *Billing preference* in the navigation pane and try to modify something and save. You will 
+       **Access denied** error message.
+       
+       <img width="779" alt="Day10_7" src="https://user-images.githubusercontent.com/44376898/90965981-51f34400-e482-11ea-9d94-3d9aeaacc4f2.png">
     
 
 
