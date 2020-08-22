@@ -27,7 +27,7 @@
 1. **Create IAM policies that grant permissions to access billing information/data**
 
     - Sign in with adminstrator account, open IAM dashboard
-    - in the left/navigation pane, choose polices and then choose create *BillingFull* policy
+    - In the left/navigation pane, choose polices and then choose create *BillingFull* policy
 
     <img width="716" alt="Day10_2" src="https://user-images.githubusercontent.com/44376898/90965337-23726a80-e47c-11ea-81be-6152b597fedf.png">
 
@@ -59,6 +59,7 @@
     
     
 3. **Now do the testing** 
+
     - *TestingBillingFull* user will have full access to billing dashboard and will be able to make all changes
     - *TestingBillingRead* user won't be able to modify anything. To test, go to *Billing preference* in the navigation pane and try to modify something and save. You will 
        **Access denied** error message.
