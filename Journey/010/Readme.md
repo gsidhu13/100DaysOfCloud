@@ -26,29 +26,42 @@
 
 1. Create IAM policies that grant permissions to access billing information/data
 
-- Sign in with adminstrator account, open IAM dashboard
-- in the left/navigation pane, choose polices and then choose create policy
+    - Sign in with adminstrator account, open IAM dashboard
+    - in the left/navigation pane, choose polices and then choose create *BillingFull* policy
 
-<img width="716" alt="Day10_2" src="https://user-images.githubusercontent.com/44376898/90965337-23726a80-e47c-11ea-81be-6152b597fedf.png">
+    <img width="716" alt="Day10_2" src="https://user-images.githubusercontent.com/44376898/90965337-23726a80-e47c-11ea-81be-6152b597fedf.png">
 
-- Select **Billing** services and then check box next to **All Actions**
+    - Select **Billing** services and then check box next to **All Actions**
 
-<img width="817" alt="Day10_3" src="https://user-images.githubusercontent.com/44376898/90965383-8237e400-e47c-11ea-853d-73c40e8e1358.png">
+    <img width="817" alt="Day10_3" src="https://user-images.githubusercontent.com/44376898/90965383-8237e400-e47c-11ea-853d-73c40e8e1358.png">
 
-- Review and create the policy
+    - Review and create the policy
 
-<img width="922" alt="Day10_4" src="https://user-images.githubusercontent.com/44376898/90965389-86640180-e47c-11ea-9c69-a1616ceb94d5.png">
+    <img width="922" alt="Day10_4" src="https://user-images.githubusercontent.com/44376898/90965389-86640180-e47c-11ea-9c69-a1616ceb94d5.png">
 
-- Create another policy and this check the box next top  **Read** instead of **All Actions**
+    - Create another policy *BillingRead* for read permissions and this check the box next top  **Read** instead of **All Actions**
 
-<img width="891" alt="Day10_3" src="https://user-images.githubusercontent.com/44376898/90965515-a0eaaa80-e47d-11ea-8eba-71a729be2eff.png">
+    <img width="891" alt="Day10_3" src="https://user-images.githubusercontent.com/44376898/90965515-a0eaaa80-e47d-11ea-8eba-71a729be2eff.png">
 
 
 2. Attach policies to the groups 
 
-- Go to IAM dashboard, in the navigation pane, choose groups
-- Select the group, click on its permissions tab and then attach policy 
-<img width="1020" alt="Day10_5" src="https://user-images.githubusercontent.com/44376898/90965595-63d2e800-e47e-11ea-91e1-6fa9076637cb.png">
+    - Go to IAM dashboard, in the navigation pane, choose groups
+    - Select *TestingReadGroup* group, click on its permissions tab and then attach policy 
+    
+    <img width="1020" alt="Day10_5" src="https://user-images.githubusercontent.com/44376898/90965595-63d2e800-e47e-11ea-91e1-6fa9076637cb.png">
+    
+    - Attach *BillingRead* policy 
+    
+        <img width="835" alt="Day10_6" src="https://user-images.githubusercontent.com/44376898/90965753-c8427700-e47f-11ea-8775-71ba874eed09.png">
+    
+    - Now attach *BillingFull* policy to *TestingBillingFull* group.
+    
+    
+ 3. Now do the testing 
+    - *TestingBillingFull* user will have full access to billing dashboard and will be able to make changes
+    - *TestingBillingRead* user won't be able to 
+    
 
 
 
