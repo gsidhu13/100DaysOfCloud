@@ -1,52 +1,39 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# TOPIC - IAM
 
-# New post title here
+## Create and Attach Customer Mangaged Policy to an IAM user
 
-## Introduction
+We will create our own policy and attach it to a user, we won't attach the policy to a group like we have done in the past.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+### Prequisites 
 
-## Prerequisite
+Create an IAM User, no group or permissions 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+<img width="852" alt="Day10_8" src="https://user-images.githubusercontent.com/44376898/90972222-0a91a580-e4cc-11ea-9c04-f6538f50caad.png">
 
-## Use Case
+no permssions at all
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+<img width="712" alt="Day10_9" src="https://user-images.githubusercontent.com/44376898/90972225-0e252c80-e4cc-11ea-8606-72286b4914c6.png">
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Real work
 
-## Try yourself
+1. **Create the Policy** 
+    - Sign in to console and go to IAM dashboard
+    - in the navigation pane, select Policies, choose **Create Policy**
+    - In **JSON** tab, copy and paste the following text 
+    
+      {
+    "Version": "2012-10-17",
+    "Statement": [ {
+        "Effect": "Allow",
+        "Action": [
+            "iam:GenerateCredentialReport",
+            "iam:Get*",
+            "iam:List*"
+        ],
+        "Resource": "*"
+    } ]
+}
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+    -  **Review Policy**
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
