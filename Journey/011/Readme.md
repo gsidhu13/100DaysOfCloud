@@ -53,7 +53,7 @@ no permssions at all
     
 3. Test user acccess
 
-    Looks much different now
+    Looks much different now, the user can view all IAM details 
     
     
 <img width="691" alt="Day10_15" src="https://user-images.githubusercontent.com/44376898/90972545-d8ce0e00-e4ce-11ea-8afd-b478a0765ca9.png">
