@@ -21,7 +21,7 @@ Linux instances don't have password; you use a key pair to connect to Linux EC2 
 
 1. Open EC2 Console, choose key pairs in Resources window or in the navigation pane under *Network and Security* and then choose *Create key pair*
 
-<img width="1083" alt="Day12_1" src="https://user-images.githubusercontent.com/44376898/91258714-e0d1bc00-e721-11ea-9fb7-ac14f6d6dad0.png">
+<img width="443" alt="Day12_1" src="https://user-images.githubusercontent.com/44376898/91259130-bb917d80-e722-11ea-8212-1d19cc538b10.png">
 <img width="620" alt="Day12_2" src="https://user-images.githubusercontent.com/44376898/91258815-1bd3ef80-e722-11ea-9dad-25387357d7d0.png">
 
 2. Name your key pair, select a file format and then choose *Create key pair*
