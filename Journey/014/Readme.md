@@ -1,52 +1,26 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Topic - Amazon EC2 
 
-# New post title here
 
-## Introduction
+### Launch an instance
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+1. Go to EC2 console and choose *Launch Instance*
+    <img width="815" alt="14 1" src="https://user-images.githubusercontent.com/44376898/91393215-04166d00-e7ef-11ea-9ab5-2878c974038c.png">
+    
+2. Choose Free tier amazon Linux AMI 64 bit, we are selecting EBS-backed root device storage
+    <img width="1041" alt="14 2" src="https://user-images.githubusercontent.com/44376898/91393269-08428a80-e7ef-11ea-9906-dc613f2985ef.png">
+    
+3. Choose an Instance type, select *t2.micro* instance type, it's eligible for free tier 
+    <img width="899" alt="14 3" src="https://user-images.githubusercontent.com/44376898/91393317-0bd61180-e7ef-11ea-8cb9-84a411ee0053.png">
 
-## Prerequisite
+4. Keep the default options unless you want to add this instance to particular VPC/Subnet etc. You have others options avaiable too to avoid accidental termination. 
+    <img width="926" alt="14 4" src="https://user-images.githubusercontent.com/44376898/91393355-0e386b80-e7ef-11ea-8486-437d3def1a9c.png">
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+5. Choose the default storage selected, skip tags and then choose security group. If choosing new security group, you will have option to add rules or you could select existing security group 
+    <img width="1064" alt="14 5" src="https://user-images.githubusercontent.com/44376898/91393385-109ac580-e7ef-11ea-88b9-a45d4f2a8a54.png">
+    <img width="1066" alt="14 6" src="https://user-images.githubusercontent.com/44376898/91393472-1690a680-e7ef-11ea-94cf-3844d864ce79.png">
 
-## Use Case
+6. On the Review Instance launch page, you could review your selections, choose launch and then choose an existing key pair
+    <img width="497" alt="14 7" src="https://user-images.githubusercontent.com/44376898/91394559-82730f00-e7ef-11ea-8b11-21092cd8abe6.png">
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
