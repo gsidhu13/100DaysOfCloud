@@ -8,6 +8,7 @@ I am not reading a guide or documentation tonight, i am going to start doing ran
   - Get secret key and Access Key ID from the portal first 
   
      <img width="172" alt="15 1" src="https://user-images.githubusercontent.com/44376898/91630700-68b8ff80-e988-11ea-8b42-b5f767cb90b8.png">
+    
     ## Issues 
     
   - I am having trouble copying a key pair from windows to WSL. Not sure what's happening, I am following the instruction as documentation 
