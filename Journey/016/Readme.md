@@ -32,5 +32,11 @@ I am not reading a guide or documentation tonight, i am going to start doing ran
    - I was constantly getting this error, this post saved me : https://forums.aws.amazon.com/thread.jspa?threadID=143988 
    
       <img width="539" alt="15 5" src="https://user-images.githubusercontent.com/44376898/91632757-d15ba880-e997-11ea-86a3-03e2c0d9ac80.png">
+      
+    - Just noticed this instructions work like a charm 
+    
+    <img width="744" alt="15 6" src="https://user-images.githubusercontent.com/44376898/91632996-bab65100-e999-11ea-9faf-087ff28ddd9d.png">
+    
+    
 
    
