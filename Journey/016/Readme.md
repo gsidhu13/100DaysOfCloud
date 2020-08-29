@@ -6,9 +6,9 @@ I am not reading a guide or documentation tonight, i am going to start doing ran
 
 1. Make sure WSL is connected to AWS console, use command - **aws configure** 
    
-    - Get secret key and Access Key ID from the portal first 
+ - Get secret key and Access Key ID from the portal first 
   
-     <img width="172" alt="15 1" src="https://user-images.githubusercontent.com/44376898/91630700-68b8ff80-e988-11ea-8b42-b5f767cb90b8.png">
+      <img width="172" alt="15 1" src="https://user-images.githubusercontent.com/44376898/91630700-68b8ff80-e988-11ea-8b42-b5f767cb90b8.png">
 
       ## Issues
 
@@ -27,4 +27,10 @@ I am not reading a guide or documentation tonight, i am going to start doing ran
 
         <img width="259" alt="15 4" src="https://user-images.githubusercontent.com/44376898/91631693-55aa2d80-e990-11ea-987d-61a148e2667c.png">
     
-    
+2. You coud use SSH to connect to the instance, you need to have public DNS of your instance. Use this command: sudo ssh -i /path/my-key-pair.pem my-instance-user-name@my-instance-public-dns-name 
+
+   - I was constantly getting this error, this post saved me : https://forums.aws.amazon.com/thread.jspa?threadID=143988 
+   
+      <img width="539" alt="15 5" src="https://user-images.githubusercontent.com/44376898/91632757-d15ba880-e997-11ea-86a3-03e2c0d9ac80.png">
+
+   
