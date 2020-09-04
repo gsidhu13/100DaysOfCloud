@@ -1,52 +1,17 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## TOPIC - AWS Batch
 
-# New post title here
+I'll be honest, I had to research and understand what batching is. Batching is basically running a job or program in the background without user's interaction.
 
-## Introduction
+AWS Batch is a regional service, you could batch jobs acroos multiple availability Zones.
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+### Components
 
-## Prerequisite
+- **Jobs** : Collection of commands that you submit to AWS batch to run. Jobs can be reference by other jobs by name or by ID and can be dependent on the successfull completion of other jobs
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+- **Job Definations** : how you want to run your job. You specifiy roles, CPU and memory when you create a job.
 
-## Use Case
+- **Job Queues** : when you create a job, you submit to a particular queue, where it resides until it is scheduled onto a computer environment. 
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- **Compute Environment** : A compute environment is a set of managed or unmanaged resources that are used to run jobs. 
 
-## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
-
-## Try yourself
-
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
