@@ -14,4 +14,18 @@ AWS Batch is a regional service, you could batch jobs acroos multiple availabili
 
 - **Compute Environment** : A compute environment is a set of managed or unmanaged resources that are used to run jobs. 
 
+### Running batch jobs at scale for less https://aws.amazon.com/getting-started/hands-on/run-batch-jobs-at-scale-with-ec2-spot/ 
+
+**Prerequisites** 
+
+If you never used EC2 spot instance, you need to create a few IAM roles: AmazonEC2SpotFleetRole, AWSServiceRoleForEC2Spot and AWSServiceRoleForEC2SpotFleet 
+
+- Create *AmazonEC2SpotFleetRole* IAM role and attach *AmazonEC2SpotFleetTaggingRole* policy to *AmazonEC2SpotFleetRole*
+
+
+    <img width="720" alt="20 1" src="https://user-images.githubusercontent.com/44376898/92207703-8251bf80-ee3e-11ea-8190-5c10e68302b3.png">
+
+- Create *AWSServiceRoleForEC2Spot* and *AWSServiceRoleForEC2SpotFleet* service linked roles for EC2 Spot 
+
+    <img width="819" alt="20 2" src="https://user-images.githubusercontent.com/44376898/92207712-867ddd00-ee3e-11ea-8369-083484cb067c.png">
 
