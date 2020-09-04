@@ -29,3 +29,8 @@ If you never used EC2 spot instance, you need to create a few IAM roles: AmazonE
 
     <img width="819" alt="20 2" src="https://user-images.githubusercontent.com/44376898/92207712-867ddd00-ee3e-11ea-8369-083484cb067c.png">
 
+Please refer to the link above for pictures reference, I am not creating my own content here so please refer to aws tutorial pictures
+
+1. Go to Services, Select **Batch** under compute. Choose *Get started* and then choose **Skip wizard** under Define job.
+
+2. 
